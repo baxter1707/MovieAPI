@@ -1,0 +1,33 @@
+.movieList {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+img {
+  width:60%;
+  height:50%
+}
+
+.poster-container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width:250;
+}
+
+.poster-container img {
+  margin: 0 auto 0 auto
+
+}
+
+.info-container  {
+  width:400;
+  height:400;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 100px
+}
+
+li {
+  list-style: none;
+}
